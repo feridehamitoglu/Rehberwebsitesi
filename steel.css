@@ -1,0 +1,73 @@
+/* Genel Sayfa Ayarları */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #000000;
+}
+
+/* Navigasyon */
+nav {
+    background-color: #644581;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sayfa İçeriği */
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* Başlıklar */
+h1, h2, h3 {
+    color: #644581;
+}
+
+/* Görsel */
+img {
+    border-radius: 8px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+/* Form */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #644581;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #644581;
+}
+
+/* Listeler */
+ul, ol {
+    line-height: 1.7;
+}
